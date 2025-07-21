@@ -10,7 +10,7 @@ variable "aws_region" {
 }
 
 variable "environment" {
-  description = "Environment name (e.g., dev, prod)"
+  description = "Environment name (e.g., TEST, PROD)"
   type        = string
 }
 

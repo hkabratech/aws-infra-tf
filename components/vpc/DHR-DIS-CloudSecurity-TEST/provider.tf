@@ -6,8 +6,8 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "hk-terrafrom-2112025"
-    key    = "us-east-1/infra/vpc/vpc-dev.tfstate"
+    bucket = "hk-aws-tf-state"
+    key    = "us-east-1/vpc/vpc-dev.tfstate"
     region = "us-east-1"
 
   }
