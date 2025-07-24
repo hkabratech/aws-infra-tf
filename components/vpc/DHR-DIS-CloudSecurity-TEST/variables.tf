@@ -28,4 +28,11 @@ variable "private_subnet_cidrs" {
   description = "List of CIDR blocks for private subnets"
   type        = list(string)
 }
-
+# variable "backend_bucket_name" {
+#   description = "s3 bucket name for backend"
+#   type        = string
+# }
+# variable "backend_bucket_key" {
+#   description = "key"
+#   type        = string
+# }
